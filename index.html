@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <div>
+  <div class="mt:p-16 p-4">
     <div class="flex">
       <h1 class="w-1/2 text-1xl text-left m-10">
         <a href="index.html">
@@ -57,25 +57,25 @@
       </div>
     </div>
 
-    <h1 class="text-center font-bold text-2xl">Order Now!</h1>
-    <div class="ml-10">
+    <h1 class="text-center font-bold text-3xl my-16">Order Now!</h1>
+    <div class="m-10 w-full">
         <form netlify>
             <label class="block mt-4 font-bold" for="name">Your Name</label>
             <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
             focus:border-purple-500" type="text" id="name" name="name">
 
-            <label class="block mt-4 font-bold" for="name">Your Email</label>
+            <label class="block mt-4 font-bold" for="email">Your Email</label>
             <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
             focus:border-purple-500" type="text" id="email" name="email">
         
             <label class="block mt-4 font-bold" for="order">What would you like to order?</label>
-            <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
-            focus:border-purple-500" type="text" id="order" name="order">
+            <textarea rows="6" class="p-2 w-full border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+            focus:border-purple-500" id="order" name="order"></textarea>
         
             <button class="block mt-4 mb-4 text-white bg-purple-500 rounded px-4 py-2">Submit form!</button>
         </form>
     </div>  
-  </div>
+</div>
 </body>
 
 </html>
